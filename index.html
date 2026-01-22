@@ -59,7 +59,7 @@
 			<p>I worked on a project to improve chart interactions in an energy data analytics platform used by financial professionals, including portfolio managers, brokers, traders, risk managers, strategic planners, and C-suite stakeholders.</p>
 		</div>
 		<div class="headerbox-small">
-			<img class="header-image img-responsive" src="https://github.com/iordanisch/woodmac/blob/main/Mac.png?raw=true" alt="">
+			<img class="header-image img-responsive" src="/home/iordanis/Documents/GitHub/woodmac/Mac.png" alt="">
 		</div>
 	
 </div>
@@ -962,9 +962,9 @@ padding-bottom: 20px;
 .header-image {
   position: relative;
   display: block;
-  max-width: 80%;
+/*  max-width: 80%;
   height: 100%;
-  margin:0 auto;
+  margin:0 auto;*/
 }
 
 .TopButton {
@@ -1159,10 +1159,31 @@ margin: 15px;
     display: block;
 }
 
+
 }
 
+@media (max-width: 860px) {
+ .headerbox {
+    display: block;
+    height: 100%;
+    position: relative;
+    margin: 15px;
+  }
+    .header {
+    height: 100%;
+    position: relative;
+    margin-top: 0px;
+  }
+.headerbox-small{
+	max-width: 100%;
+}
+.header-image {
+  position: relative;
+  display: block;
+  margin: auto;
+}
 
-
+}
 
 @media (min-width: 1280px) {
  .headerbox {
