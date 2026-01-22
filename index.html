@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Wood Mackenzie</title>
-	<head>
+		<link rel="icon" type="image/x-icon" href="https://iordanisch.github.io/woodmac/favicon.ico">
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -12,7 +12,6 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
 		<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-		</head>
 </head>
 <body>
 	<div id="atestbox" class="testbox">
@@ -473,7 +472,21 @@
 				</div>
 	</div>
 
-
+<div class="cust-container-final"><hr>
+		
+			<div class="mainbox-final">
+				<h2 class="nostyle">Similar success stories</h2>
+				<div class="mainbox-final-small">
+					<a class="cardlink" target="_blank" href="https://iordanisch.github.io/LendingCrowd-case-study/">
+				<img class="img-responsive successimg" src="https://github.com/iordanisch/woodmac/blob/main/lending-pc.jpg?raw=true" alt="">
+				<div class="mainbox-final-text">
+					<p class="tag">Product Designer</p>
+				<p class="bulletsecond">Complete redesign of the platform. New UI guide lines and UX improvements.</p>
+				</div>
+				</div>
+				</div>
+			</a>	
+</div>
 
 <div class="footer text-center">
 <div class="container">
@@ -552,6 +565,52 @@ body{
 .photobox,.userbox, .double-box, .mainbox, .goalbox, .insightbox {
   display: flex;
   justify-content: space-between;
+}
+
+.cust-container-final{
+max-width:1500px;
+  margin:auto;
+  padding: 0px 10px;
+  text-align: center;
+
+}
+
+.cardlink:hover {
+  text-decoration: none;
+}
+.cardlink:visited {
+	text-decoration: none;
+}
+
+
+.tag {
+  display: block;
+  background: #1E68A3;
+  padding: 3px 9px;
+  max-width: 131px;
+  font-size: 14px;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.mainbox-final-small {
+  max-width: 325px;
+  background: #fff;
+  box-shadow: -3px 0px 10px 6px #0000000f;
+  margin: 70px auto;
+}
+
+.mainbox-final-small:hover {
+  opacity: 0.8;
+  transition: 1s;
+}
+
+.mainbox-final-text {
+  padding: 20px;
+  text-align: left;
+}
+.mainbox-final{
+	margin: 70px 0px;
 }
 
 .insight-small-a{
@@ -698,15 +757,10 @@ max-width: 48%;
 .the-designs{
 	width: 47%;
 }
-/*.header-image{
-	position: absolute;
-		margin: auto;
-		top: 0;
-		bottom: 0;
-		left: 0;
-		right: 0;
-	max-height: 400px;
-}*/
+.successimg{
+	margin: auto;
+}
+
 .wire-image{
 	max-width: 1500px;
 }
